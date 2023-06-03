@@ -11,3 +11,7 @@
 - Allows developers to develop code in different language per service so they can choose a suitable language for that particular service's functionality
 
 https://dzone.com/articles/what-problems-do-microservices-solve-2
+
+### To refer on problems of using Microservices
+
+https://www.bmc.com/blogs/microservices-challenges-when-to-avoid/
