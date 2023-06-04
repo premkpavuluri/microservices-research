@@ -22,6 +22,8 @@ https://www.bmc.com/blogs/microservices-challenges-when-to-avoid/
 
 - An architecture that structures the application as a single deployable and executable component.
 
+#### Basic features of monolithic architecture
+
 - The component contains all of the application’s subdomains.
 - Since there’s a single component, all operations are local.
 - Simple to develop (as designing/understanding this architecture doesn't take much time and helps for applications in starting stages of development)
@@ -30,3 +32,8 @@ https://www.bmc.com/blogs/microservices-challenges-when-to-avoid/
 - One has to run multiple instances of the application using load balancer in order to scale and improve availability of the application.
 - All operations can be implemented as an ACID transaction since there’s a single database
 - There’s no runtime coupling and design-time coupling as there are no multiple components
+
+ref:
+https://microservices.io/patterns/monolithic.html
+
+![huge_monolith_impacts](../Images/Impacts_of_large_monolithic_appl.png)
