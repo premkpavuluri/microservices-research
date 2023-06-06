@@ -36,3 +36,31 @@
 | Experience  | More experience required | Less experience required |
 
 When choosing between microservices and monolithic architectures, we can consider these factors along with specific project requirements, team capabilities, and organizational context to make an informed decision.
+
+<br>
+<hr>
+<br>
+
+## Here are some of the problems with monolithic architecture :
+
+Slower development speed –
+- A large, monolithic application makes development more complex and slower. A small change to a monolithic application requires the redeployment of the entire
+monolith.
+
+Difficult to scale - 
+- Monolithic applications can be difficult to scale, especially as they grow in size and complexity. This is because all of the components in a monolithic application
+share the same resources, such as memory, CPU, and database.
+
+Single point of failure - 
+- A monolithic application has a single point of failure, meaning that if any one component fails, the entire application will fail. This can be a major problem for
+applications that require high availability.
+
+Barrier to technology adoption – 
+- Any changes in the framework or language affects the entire application, making changes often expensive and time-consuming.
+
+Lack of flexibility – 
+- A monolith is constrained by the technologies already used in the monolith.
+
+Costly to maintain -
+- Monolithic applications can be costly to maintain, as any changes or updates must be made to the entire application. This can be a major problem for applications
+that are constantly changing.
