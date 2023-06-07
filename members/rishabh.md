@@ -36,3 +36,16 @@ Some operations will be local (implemented by a single service), while others wi
 
 refs:
 https://microservices.io/patterns/microservices.html
+
+### Disadvantages of microservice
+
+- Operations can't be implemented as an ACID transaction since there are multiple databases
+- Some distributed operations might be hard to follow and debug
+- Distributed operations might be tightly coupled which means that one microservice is heavily dependent on other
+- Risk of tight design-time coupling between services, which requires time consuming lockstep changes
+- It's hard to deploy prodcut wide updates (multiple microservices need to deployed at once)
+- Hard to perform end-to-end tests with distributed microservice architecture.
+
+reffs:
+atlassian.com/microservices/microservices-architecture/microservices-vs-monolith
+https://microservices.io/patterns/microservices.html
