@@ -9,3 +9,4 @@
 - [x] What questions to ask to decide if someone needs microservices or not
 - [ ] Why the world is moving towards microservices
 - [ ] What is the conclusion of our research
+- [ ] why the comperison between only monolithic and microservices?
