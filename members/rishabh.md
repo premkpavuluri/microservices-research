@@ -49,3 +49,7 @@ https://microservices.io/patterns/microservices.html
 reffs:
 atlassian.com/microservices/microservices-architecture/microservices-vs-monolith
 https://microservices.io/patterns/microservices.html
+
+### What are monolithic applications
+
+- An architecture that structures the application as a single deployable and executable component.The component contains all of the application’s subdomains. Since there’s a single component, all operations are local.
