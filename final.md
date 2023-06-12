@@ -2,16 +2,17 @@
 
 ## Index
 
-- What is microservices architecture?
-- What is monolithic architecture?
-- Architectural diagrams for both (hypothetical scenarios included)
-- Advantages of Microservice over monolithic
-- Disadvantages of Microservice over monolithic
-- What questions to ask to decide if someone needs microservices or not
-- Why the world is moving towards microservices
-- What is the conclusion of our research
+1. What is microservices architecture?
+2. What is monolithic architecture?
+3. Architectural diagrams for microservice and monolithic architectures.
+4. Advantages of Microservice over monolithic.
+5. Disadvantages of Microservice over monolithic.
+6. What questions to ask to decide if someone needs microservices or not.
+7. Why the world is moving towards microservices?
+8. What is the conclusion of our research.
+9. References.
 
-## What is microservice architecture
+## 1. What is microservice architecture
 
 An architecture that structures the application as a set of independently deployable, loosely coupled, components, a.k.a. services. Each service consists of one or more subdomains.
 
@@ -28,7 +29,7 @@ Some operations will be local (implemented by a single service), while others wi
 - Loose run time coupling (one service should not be dependent on availability of another service).
 - Loose design time coupling (packaging tightly coupled services together).
 
-## What are monolithic applications
+## 2. What are monolithic applications
 
 An architecture that structures the application as a single deployable and executable component.The component contains all of the application’s subdomains. Since there’s a single component, all operations are local.
 
@@ -42,3 +43,25 @@ An architecture that structures the application as a single deployable and execu
 - One has to run multiple instances of the application using load balancer in order to scale and improve availability of the application.
 - All operations can be implemented as an ACID transaction since there’s a single database.
 - There’s no runtime coupling and design-time coupling as there are no multiple components.
+
+## 3. Architectural diagrams for microservice and monolithic architectures.
+
+## 4. Advantages of Microservice over monolithic
+
+## 5. Disadvantages of Microservice over monolithic
+
+## 6. What questions to ask to decide if someone needs microservices or not.
+
+## 7. Why the world is moving towards microservices
+
+## 8. Conclusion
+
+## 9. References
+
+### Section 1
+
+- https://microservices.io/patterns/microservices.html
+
+### Section 2
+
+- https://microservices.io/patterns/monolithic.html
