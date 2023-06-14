@@ -7,7 +7,7 @@
 3. Architectural diagrams for microservice and monolithic architectures.
 4. Advantages and Disadvantages of Microservice.
 5. Advantages and Disadvantages of Monolithic.
-6. Why projects moving towards microservices.
+6. Why projects are moving towards microservices.
 7. Why projects are sticking with monolithic.
 8. What questions to ask to decide if someone needs microservices or not.
 9. What is the conclusion of our research.
