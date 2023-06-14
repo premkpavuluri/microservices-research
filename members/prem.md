@@ -29,14 +29,14 @@
 
 - Lack of clear ownership: As more services are introduced, so are the number of teams running those services. Over time it becomes difficult to know the available services a team can leverage and who to contact for support.
 
-- Version control, updations
+- Version control, updations: As more services are introduced, it's hard to maintain the versions between services. Updation of one service make uncompatable with other services.
 
-- Need a have Holistic view of system
+- Need a have Holistic view of system: There needs to be person which keeps track of holistic view of whole system. The understanding needs updated as well.
 
-- Hard to onboard
+- Hard to onboard: It's hard to onboard new people in to the system. Lot to catch-up on, Needs a person to onboard, etc.
 
-- Forced to use orchestration tools
+- Forced to use orchestration tools: Since all the services need to bring together to run entire application, this will force to use orchestration tools like: docker, kubernetees ,..etc.
 
-- Hidden contracts
+- Hidden contracts: The contract of each services are hard to track, chaning of one service contract makes effect on the dependent services.
 
 Reference: https://www.atlassian.com/microservices/microservices-architecture/microservices-vs-monolith
