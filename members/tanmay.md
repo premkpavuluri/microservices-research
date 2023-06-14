@@ -13,7 +13,6 @@
   - Do you have separate teams with specialized skills that can handle different components of a microservices architecture?
 
 - What are your requirements and preferences regarding deployment environments and infrastructure management? 
-
   - Do you have the necessary infrastructure and tools in place to support a microservices architecture?
 
 - What are your security requirements?
@@ -64,3 +63,24 @@ Lack of flexibility –
 Costly to maintain -
 - Monolithic applications can be costly to maintain, as any changes or updates must be made to the entire application. This can be a major problem for applications
 that are constantly changing.
+
+## Advantages of Microservice architecture :
+
+- Highly agile - Any application that uses microservices is agile. Making changes to one microservice allows you to redeploy it without disrupting other components.
+Also, you can add and test new technologies easily.
+
+- Scalable Development – With microservices, different development teams can work on different services simultaneously, enabling faster development cycles. Teams can
+be organized around specific business domains or functional areas, allowing for more focused development efforts and quicker time-to-market for new features.
+
+- Continuous deployment – We now have frequent and faster release cycles. Before we would push out updates once a week and now we can do so about two to three times a 
+day. 
+
+- Highly maintainable and testable – Teams can experiment with new features and roll back if something doesn’t work. This makes it easier to update code and 
+accelerates time-to-market for new features. Plus, it is easy to isolate and fix faults and bugs in individual services.
+
+- Independently deployable – Microservices are self-contained, independent deployment module.
+
+- Support multiple technology stacks - Different services can use different technology stacks and can be upgraded independently.
+
+- Isolation of services - Any fault in a microservices application affects only a particular service and not the whole solution. Therefore, all the changes and 
+experiments are implemented with lower risks and fewer errors.
