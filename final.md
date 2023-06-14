@@ -57,6 +57,8 @@ An architecture that structures the application as a single deployable and execu
 
 ## 8. What questions to ask to decide if someone needs microservices or not.
 
+![flow_chart](Images/flow-chart.png)
+
 ## 9. Conclusion
 
 ## 10. References
