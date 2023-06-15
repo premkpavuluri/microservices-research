@@ -72,8 +72,7 @@ Also, you can add and test new technologies easily.
 - Scalable Development – With microservices, different development teams can work on different services simultaneously, enabling faster development cycles. Teams can
 be organized around specific business domains or functional areas, allowing for more focused development efforts and quicker time-to-market for new features.
 
-- Continuous deployment – We now have frequent and faster release cycles. Before we would push out updates once a week and now we can do so about two to three times a 
-day. 
+- Continuous Delivery – Microservices architecture allows for continuous delivery because each service can be deployed independently, without affecting the other services. This means that developers can continuously deliver updates and improvements to the system without disrupting other services. This results in faster delivery times, improved system reliability, and increased customer satisfaction. 
 
 - Highly maintainable and testable – Teams can experiment with new features and roll back if something doesn’t work. This makes it easier to update code and 
 accelerates time-to-market for new features. Plus, it is easy to isolate and fix faults and bugs in individual services.
@@ -84,3 +83,7 @@ accelerates time-to-market for new features. Plus, it is easy to isolate and fix
 
 - Isolation of services - Any fault in a microservices application affects only a particular service and not the whole solution. Therefore, all the changes and 
 experiments are implemented with lower risks and fewer errors.
+
+Reference: https://www.atlassian.com/microservices/microservices-architecture/microservices-vs-monolith
+           https://blog.dreamfactory.com/7-key-benefits-of-microservices/
+            
