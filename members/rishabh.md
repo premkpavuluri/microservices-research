@@ -13,7 +13,7 @@ the microservice architectural style is an approach to developing a single appli
 
 https://daedtech.com/what-problems-do-microservices-solve/#:~:text=With%20microservices%2C%20you%20get%20true,some%20enormous%20windfalls%20in%20productivity.
 
-### great for getting examples of big companies using mciroservice arcitechture and the problem they solve for them
+### great for getting examples of big companies using mciroservice architecture and the problem they solve for them
 
 https://medium.com/containerum/10-tech-challenges-that-are-solved-by-microservices-d91adeecb2e7
 
@@ -43,7 +43,7 @@ https://microservices.io/patterns/microservices.html
 - Some distributed operations might be hard to follow and debug
 - Distributed operations might be tightly coupled which means that one microservice is heavily dependent on other
 - Risk of tight design-time coupling between services, which requires time consuming lockstep changes
-- It's hard to deploy prodcut wide updates (multiple microservices need to deployed at once)
+- It's hard to deploy product wide updates (multiple microservices need to deployed at once)
 - Hard to perform end-to-end tests with distributed microservice architecture.
 
 reffs:
