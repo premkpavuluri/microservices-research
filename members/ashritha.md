@@ -44,9 +44,13 @@ As a startup (not likely in this economy), you already are running against the c
 
 Microservices are only viable for mature products
 
+## 7. Why projects moving towards microservices.
+
 Some companies which moved to microservices from monolithic
 
 - Amazon :
+
+  One of the most influential economic and cultural forces in the world
 
   - Moving to microservices increased their scalability.
   - Allowed each team to handle their own service and processes.
@@ -54,7 +58,7 @@ Some companies which moved to microservices from monolithic
 
 - Bestbuy.com :
 
-  10 on the Internet Retailer Top 500
+  10th rank holder on the Internet Retailer Top 500
 
   - Microservices made simple changes deploy faster.
   - To effectively handle peak level traffic.
@@ -63,7 +67,7 @@ Some companies which moved to microservices from monolithic
 
   3,800 products worldwide and subsidiaries in all countries of the world
 
-  - Migrating to microservices helped to connect entities in different continents and support their growth.
+  - Migrating helped to connect entities in different continents and support their growth.
 
 - eBay
 
@@ -74,12 +78,14 @@ Some companies which moved to microservices from monolithic
 
 - Etsy
 
+  Etsy is a global online marketplace, where people come together to make, sell, buy and collect unique items
+
   - To support the development of new features.
   - To allow continuous experimentation.
 
 - Gilt.com
 
-  A startup to a $1B fashion brand in the U.S
+  A startup that emerged to be a $1B worth fashion brand in the U.S
 
   - To have less dependencies between teams.
   - Running initiatives in parallel.
@@ -87,13 +93,15 @@ Some companies which moved to microservices from monolithic
 
 - Uber
 
-  - Scalability and continuous integration
+  110 million people actively uses Uber each month
+
+  - Scalability and continuous integration as their app grew popular.
 
 - Groupon
 
   Simple website designed to show one deal per day in Chicago, now expanded in 48 countries.
 
-  - Shorten the Time for Shipping New Features
+  - Shorten the Time for Shipping New Features.
 
 - PayPal
 
