@@ -120,3 +120,11 @@ Some companies which moved to microservices from monolithic
   It became hard to track the interactions between components because everything got entangled.
 
   - Microservices adoption made it easy to add a functionality independent of other services.
+
+### refs:
+
+https://medium.com/containerum/10-tech-challenges-that-are-solved-by-microservices-d91adeecb2e7
+
+https://www.divante.com/blog/10-companies-that-implemented-the-microservice-architecture-and-paved-the-way-for-others
+
+https://goldenowl.asia/blog/these-giant-tech-companies-has-embraced-the-microservices-architecture
