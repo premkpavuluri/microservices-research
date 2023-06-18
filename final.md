@@ -72,7 +72,7 @@ The application is deployed as a single monolithic application. A web applicatio
 - There’s no runtime coupling since there’s a single component
 - There’s no design-time coupling between multiple components
 
-### Sample Illustration of Micro-services architecture of E-Commerce website
+### Sample Illustration of Microservices architecture of E-Commerce website
 
 ![Micro-service Architectures](Images/micro_service_architecture.png)
 
