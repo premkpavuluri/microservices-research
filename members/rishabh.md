@@ -84,6 +84,12 @@ https://blog.dreamfactory.com/7-key-benefits-of-microservices/
 
 - Added organizational overhead :- Teams need to add another level of communication and collaboration to coordinate updates and interfaces. As more services are introduced, so are the number of teams running those services. Over time it becomes difficult to know the available services a team can leverage and whom to contact for support. It's hard to onboard new people to the system.
 
+#### added optional point
+
+( can go in the development sprawl )
+
+They also have a limited ability to reuse code, which can lead to increased development time and costs because microservices are typically written in multiple programming languages and use different technology stacks
+
 refs:
 https://www.orientsoftware.com/blog/microservices-advantages-and-disadvantages/
 
