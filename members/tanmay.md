@@ -86,3 +86,29 @@ experiments are implemented with lower risks and fewer errors.
 
 Reference: https://www.atlassian.com/microservices/microservices-architecture/microservices-vs-monolith
            https://blog.dreamfactory.com/7-key-benefits-of-microservices/
+
+
+## Why projects are sticking with Monolithic :
+Here are some companies that were used monolithic architecture for long period:
+
+- Spotify
+- LinkedIn
+- Twitter
+- Salesforce
+- Adobe
+- SAP
+- Oracle
+- IBM
+- Microsoft
+
+These companies are all large and complex, and their monolithic architectures have served them well for many years.However, as their businesses grow and their needs change, they may change their architecture.
+
+Here are some of the reasons why these companies used monolithic architecture for long time: [WIP]
+
+- 
+- 
+
+Now, there is a exceptional case where some companies realized that monolithic architecture is suitable based on their needs.
+One current example of a company that has transitioned from microservices to a monolithic architecture is **Amazon Prime Video**.
+- Moving to monolithic architecture reduce their infrastructure cost by 90%. It's also increased their scaling capabilities.
+- Better customer experience due to faster processing of defunct videos.
