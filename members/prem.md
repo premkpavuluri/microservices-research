@@ -62,3 +62,28 @@ The demand of online shopping in increasing rapidly. People are prefer to buy pr
 - Hidden contracts: The contract of each services are hard to track, chaining of one service contract makes effect on the dependent services.
 
 Reference: https://www.atlassian.com/microservices/microservices-architecture/microservices-vs-monolith
+
+
+
+## Tabular difference of monolithic and microservices
+
+
+| Area | Monolithic Architecture | Microservices Architecture|
+|--- | --- | ---|
+|Structure | One large, tightly-coupled application | Multiple smaller, loosely-coupled services|
+|Deployment | Deployed as a single unit | Deployed as independent services|
+|Scalability | Scaling requires scaling the entire application | Scaling can be done independently for each service|
+|Development | Developers work on the entire application code | Developers work on smaller, focused services|
+|Maintainability | More difficult to maintain | Easier to maintain |
+|Technology Stack | Typically uses a single technology stack | Can use different technologies for each service|
+|Communication | Internal function calls within the application | Inter-service communication via APIs or messaging|
+|Fault Isolation | A failure in one component affects the entire application | Failures are isolated to individual services|
+|Deployment Speed | Slower deployment cycles due to the need to rebuild and redeploy the entire application | Faster deployment cycles as individual services can be deployed independently|
+|Flexibility | Changes require modifying the entire application | Changes can be made to specific services without affecting others|
+|Complexity | Generally simpler to develop and manage | More complex due to the distributed nature of services|
+|Resilience | Lack of resilience as a single point of failure can affect the entire application | Improved resilience as services can be designed for fault tolerance|
+|Team Autonomy | Less autonomy for development teams | Greater autonomy for development teams to work on specific services|
+|Scalability Scope | Limited to the capacity of a single server | Scalability can be achieved across multiple servers and infrastructure|
+|Communication Overhead | Lower communication overhead | Higher communication overhead due to inter-service communication|
+|Complexity Management | Easier to manage complexity in smaller applications | Requires additional tools and strategies to manage the complexity of a distributed system|
+| Cost | Less expensive to develop and deploy | More expensive to develop and deploy |

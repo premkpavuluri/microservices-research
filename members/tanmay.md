@@ -101,7 +101,7 @@ Here are some companies that were used monolithic architecture for long period:
 - IBM
 - Microsoft
 
-These companies are all large and complex, and their monolithic architectures have served them well for many years.However, as their businesses grow and their needs change, they may change their architecture.
+These companies are all large and complex, and their monolithic architectures have served them well for many years. However, as their businesses grow and their needs change, they may change their architecture.
 
 These companies have different reasons for sticking with monolithic architecture for a long period of time. Here are some potential reasons:
 
