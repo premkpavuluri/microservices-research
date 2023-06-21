@@ -103,10 +103,15 @@ Here are some companies that were used monolithic architecture for long period:
 
 These companies are all large and complex, and their monolithic architectures have served them well for many years.However, as their businesses grow and their needs change, they may change their architecture.
 
-Here are some of the reasons why these companies used monolithic architecture for long time: [WIP]
+These companies have different reasons for sticking with monolithic architecture for a long period of time. Here are some potential reasons:
 
-- 
-- 
+- Legacy Systems: Some of these companies have been around for several decades, and their software systems were initially built using monolithic architecture. Over time, these systems became deeply ingrained in the company's operations and changing to a new architecture would require significant effort and resources.
+
+- Stability and Reliability: Monolithic architectures, despite their drawbacks, can be stable and reliable when properly implemented. These companies might prioritize the stability of their systems over the potential benefits of adopting a microservices or distributed architecture.
+
+- Cost and Complexity: Transitioning from a monolithic architecture to a microservices or distributed architecture can be a complex and costly process. It often involves re-engineering or rewriting significant portions of the existing software systems. These companies might hesitate to undertake such a massive endeavor due to the associated risks and resource requirements.
+
+- Interdependencies: Monolithic architectures often result in tight coupling between different components of the system. In some cases, the functionality of various parts might be tightly integrated, making it challenging to decouple and migrate to a more modular architecture.
 
 Now, there is a exceptional case where some companies realized that monolithic architecture is suitable based on their needs.
 One current example of a company that has transitioned from microservices to a monolithic architecture is **Amazon Prime Video**.
