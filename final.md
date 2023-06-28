@@ -232,24 +232,29 @@ Some companies which moved to microservices from monolithic
 Here are a few examples of companies that continue to stick with monolithic architecture along with some reasons behind their decisions:
 
 - Netflix: A popular streaming platform.
+
   - Transitioning to a distributed architecture would require a massive overhaul of their existing system.
   - Their monolithic architecture allows for centralized control and easier management of their extensive content catalog.
 
 - Shopify: An e-commerce platform.
+
   - Shopify's monolithic architecture allows for faster feature development, deployment and maintenance.
 
 - LinkedIn: The professional networking platform.
-  - LinkedIn's monolithic architecture allows for rapid feature development and deployment, which is crucial in the fast-paced social media landscape. 
+
+  - LinkedIn's monolithic architecture allows for rapid feature development and deployment, which is crucial in the fast-paced social media landscape.
   - Their architecture provides centralized control and enables efficient data access across various features of the platform.
 
-- Salesforce: A leading customer relationship management (CRM) platform. 
-  - The reason behind this choice is the need for strong data consistency and security. 
+- Salesforce: A leading customer relationship management (CRM) platform.
+  - The reason behind this choice is the need for strong data consistency and security.
   - Their monolithic architecture ensures better performance efficiency.
 
 Now, there is a exceptional case where some companies realized that monolithic architecture is suitable based on their needs.
 One current example of a company that has transitioned from microservices to a monolithic architecture is **Amazon Prime Video**.
+
 - Moving to monolithic architecture reduce their infrastructure cost by 90%. It's also increased their scaling capabilities.
 - Better customer experience due to faster processing of defunct videos.
+
 ## 9. What questions to ask to decide if someone needs microservices or not.
 
 When deciding whether someone needs microservices or not, there are several factors to consider as follows
@@ -282,8 +287,6 @@ Based on a project, is it already running or have to create from scratch we can 
 By discussing these questions with the relevant stakeholders and considering their responses, you can gain a better understanding of whether microservices would be a suitable architectural choice for the given scenario. It's important to note that the decision should be made based on the specific requirements and constraints of the project at hand, as microservices come with additional complexity and operational overhead compared to a monolithic architecture.
 
 ## 10. Conclusion
-
-## Conclusion:
 
 The goal of this research paper was to figure out WHEN and WHEN NOT to use micro-service arch.
 <br>
