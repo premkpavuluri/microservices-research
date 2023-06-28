@@ -113,6 +113,24 @@ These companies have different reasons for sticking with monolithic architecture
 
 - Interdependencies: Monolithic architectures often result in tight coupling between different components of the system. In some cases, the functionality of various parts might be tightly integrated, making it challenging to decouple and migrate to a more modular architecture.
 
+-----------
+Here are a few examples of companies that continue to stick with monolithic architecture along with some reasons behind their decisions:
+
+- Netflix: A popular streaming platform.
+  - Transitioning to a distributed architecture would require a massive overhaul of their existing system.
+  - Their monolithic architecture allows for centralized control and easier management of their extensive content catalog.
+
+- Shopify: An e-commerce platform.
+  - Shopify's monolithic architecture allows for faster feature development, deployment and maintenance.
+
+- LinkedIn: The professional networking platform.
+  - LinkedIn's monolithic architecture allows for rapid feature development and deployment, which is crucial in the fast-paced social media landscape. 
+  - Their architecture provides centralized control and enables efficient data access across various features of the platform.
+
+- Salesforce: A leading customer relationship management (CRM) platform. 
+  - The reason behind this choice is the need for strong data consistency and security. 
+  - Their monolithic architecture ensures better performance efficiency.
+
 Now, there is a exceptional case where some companies realized that monolithic architecture is suitable based on their needs.
 One current example of a company that has transitioned from microservices to a monolithic architecture is **Amazon Prime Video**.
 - Moving to monolithic architecture reduce their infrastructure cost by 90%. It's also increased their scaling capabilities.
