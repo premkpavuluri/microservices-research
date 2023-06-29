@@ -1,5 +1,7 @@
 # When And When Not To Choose Microservice Architecture.
 
+<div class="page-break"></div>
+
 ## Index
 
 1. What is microservices architecture?
@@ -13,6 +15,8 @@
 9. What questions to ask to decide if someone needs microservices or not.
 10. What is the conclusion of our research.
 11. References.
+
+<div class="page-break"></div>
 
 ## 1. What is microservices architecture
 
@@ -31,6 +35,8 @@ Some operations will be local (implemented by a single service), while others wi
 - Loose run time coupling (one service should not be dependent on availability of another service).
 - Loose design time coupling (packaging tightly coupled services together).
 
+<div class="page-break"></div>
+
 ## 2. What are monolithic applications
 
 An architecture that structures the application as a single deployable and executable component.The component contains all of the application’s subdomains. Since there’s a single component, all operations are local.
@@ -45,6 +51,8 @@ An architecture that structures the application as a single deployable and execu
 - One has to run multiple instances of the application using load balancer in order to scale and improve availability of the application.
 - All operations can be implemented as an ACID transaction since there’s a single database.
 - There’s no runtime coupling and design-time coupling as there are no multiple components.
+
+<div class="page-break"></div>
 
 ## 3. Architectural diagrams for microservice and monolithic architectures.
 
@@ -62,17 +70,23 @@ The demand of online shopping in increasing rapidly. People prefer to buy produc
 
 Let’s imagine that you are building an e-commerce application that takes orders from customers, verifies inventory and available credit and ships them. The application consists of several components including the StoreFrontUI, which implements the user interface, along with some backend services for checking credit, maintaining inventory and shipping orders. <br>
 
+<div class="page-break"></div>
+
 ### Sample Illustration of Monolith architecture of E-Commerce website
 
 ![Monolithic Architectures](Images/monolithic_architecture.png)
 
 The application is deployed as a single monolithic application. A web application consists of a single file that runs on a server. A Rails application consists of a single directory hierarchy deployed using either, for example, Phusion Passenger on Apache/Nginx or JRuby on Tomcat. You can run multiple instances of the application behind a load balancer in order to scale and improve availability.
 
+<div class="page-break"></div>
+
 ### Sample Illustration of Microservices architecture of E-Commerce website
 
 ![Micro-service Architectures](Images/micro_service_architecture.png)
 
 The above architecture consist of a user interface, routing layer(API gateway), several services that provides specific e-commerce functionalities(Account service, Inventory service, Shipping services and others) and database for each service for data storage and retrieval.
+
+<div class="page-break"></div>
 
 ## 4. Advantages and Disadvantages of Microservice.
 
@@ -99,6 +113,8 @@ The above architecture consist of a user interface, routing layer(API gateway), 
 - Dependency on DevOps :- In order to be successful with microservices, organizations need to have a strong DevOps team in place. This is due to the fact DevOps is responsible for deploying and managing microservices. Without a good DevOps team, it can be difficult to successfully implement and manage a microservice-based application.
 
 - Added organizational overhead :- Teams need to add another level of communication and collaboration to coordinate updates and interfaces. As more services are introduced, so are the number of teams running those services. Over time it becomes difficult to know the available services a team can leverage and whom to contact for support. It's hard to onboard new people to the system.
+
+<div class="page-break"></div>
 
 ## 5. Advantages and Disadvantages of Monolithic.
 
@@ -128,6 +144,8 @@ The above architecture consist of a user interface, routing layer(API gateway), 
 
 - Easy to provide security for whole app - As there's a single point entry to the application providing security at that point is much more easier than providing security at each service in microservices.
 
+<div class="page-break"></div>
+
 ## 6. Tabular difference of monolithic and microservices
 
 | Area                   | Monolithic Architecture                                                                 | Microservices Architecture                                                                |
@@ -150,13 +168,9 @@ The above architecture consist of a user interface, routing layer(API gateway), 
 | Complexity Management  | Easier to manage complexity in smaller applications                                     | Requires additional tools and strategies to manage the complexity of a distributed system |
 | Cost                   | Less expensive to develop and deploy                                                    | More expensive to develop and deploy                                                      |
 
+<div class="page-break"></div>
+
 ## 7. Why projects moving towards microservices.
-
-Microservices aren’t the best for on-premise
-
-As a startup (not likely in this economy), you are already running against the clock, looking for a breakthrough before the next bad thing happens. You don’t need the scalability at this point (and probably not for a few years yet),
-
-Microservices are only viable for mature products
 
 Some companies which moved to microservices from monolithic
 
@@ -227,6 +241,8 @@ Some companies which moved to microservices from monolithic
 
   - Microservices adoption made it easy to add a functionality independent of other services.
 
+<div class="page-break"></div>
+
 ## 8. Why projects are sticking with monolithic.
 
 Here are a few examples of companies that continue to stick with monolithic architecture along with some reasons behind their decisions:
@@ -254,6 +270,8 @@ One current example of a company that has transitioned from microservices to a m
 
 - Moving to monolithic architecture reduce their infrastructure cost by 90%. It's also increased their scaling capabilities.
 - Better customer experience due to faster processing of defunct videos.
+
+<div class="page-break"></div>
 
 ## 9. What questions to ask to decide if someone needs microservices or not.
 
@@ -286,14 +304,17 @@ Based on a project, is it already running or have to create from scratch we can 
 
 By discussing these questions with the relevant stakeholders and considering their responses, you can gain a better understanding of whether microservices would be a suitable architectural choice for the given scenario. It's important to note that the decision should be made based on the specific requirements and constraints of the project at hand, as microservices come with additional complexity and operational overhead compared to a monolithic architecture.
 
+<div class="page-break"></div>
+
 ## 10. Conclusion
 
-The goal of this research paper was to figure out WHEN and WHEN NOT to use micro-service arch.
-<br>
+The goal of this research paper was to figure out WHEN and WHEN NOT to use micro-service architecture.
 The answer to this question is not as trivial as it appears. Choosing an architecture for any project is a huge task.
 Throughout our research we found and captured that both monolithic and micro-services provide distinct values to different projects.
 Architectures are not one size fit all, we need to choose an architecture based on our business needs and technical capabilities.
 To ease the process of selection, we have tried to provide impartial insights on both the architectures to help our readers decide, which one suites their needs the best.
+
+<div class="page-break"></div>
 
 ## 11. References
 
